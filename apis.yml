@@ -1,8 +1,25 @@
 aid: trial-library
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trial-library.png
 name: Trial Library
-description: 'Trial Library is a company surfaced as a portfolio company of lux-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Trial Library is an AI-native oncology clinical trials technology company that integrates
+  clinical trials into routine cancer care. Its provider-facing decision-support platform helps community
+  oncology practices and health systems identify eligible patients and match them to open trials at the
+  point of care, while a navigation layer supports patients through enrollment and completion by
+  proactively addressing transportation, food, language, and scheduling barriers. Trial Library works
+  across health systems, biopharma sponsors, and research sites to expand equitable access to cancer
+  clinical trials. The company was added to the API Evangelist network as a portfolio company of
+  lux-capital.'
 url: https://raw.githubusercontent.com/api-evangelist/trial-library/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthtech
+- Clinical Trials
+- Oncology
+- Healthcare
+- Patient Access
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/trial-library-domain-security.yml
+- type: Website
+  url: https://www.triallibrary.com/
+- type: About
+  url: https://www.triallibrary.com/about
+- type: Blog
+  url: https://www.triallibrary.com/blog
+- type: TermsOfService
+  url: https://www.triallibrary.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
